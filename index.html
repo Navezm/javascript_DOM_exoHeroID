@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo5 - Input</title>
+</head>
+<body>
+    <h1>Mon hero ID</h1>
+    <label for="">Nom : </label><input type="text" name="" id="nom"> <br>
+    <label for="">Prénom : </label><input type="text" name="" id="prenom"> <br>
+    <label for="">Age : </label><input type="text" name="" id="age"> <br>
+    <label for="">Genre : </label><input type="text" name="" id="genre"> <br>
+    <label for="">Clan : </label><input type="text" name="" id="clan"> <br>
+    <label for="">Pouvoir : </label><input type="text" name="" id="pouvoir"> <br>
+    <label for="pet">Choisi une image :</label><br>
+    <select name="pet" id="pet" style="margin-bottom: 1%;">
+        <option value="">Choose an option</option>
+        <option value="">Fight</option>
+        <option value="">Issou</option>
+        <option value="">Jacquouille</option>
+        <option value="">Kratos</option>
+        <option value="">Lara Croft</option>
+        <option value="">Link</option>
+        <option value="">Louis XVI</option>
+        <option value="">Maléfique</option>
+        <option value="">Mario</option>
+        <option value="">Pikatchu</option>
+        <option value="">Ronflex</option>
+        <option value="">Shinigami</option>
+        <option value="">ValhallaF</option>
+        <option value="">ValhallaM</option>
+        <option value="">Xena</option>
+    </select> <br>
+    <button>CREATE</button> <br>
+
+    <div id="fiche_perso" style="display: none;">
+        <h1>Fiche de personnage :</h1>
+        <div style="display: flex; flex-direction: row;">
+            <div style="flex: 2;">
+                <img id="img_fiche" width="100%" src="" alt="">
+            </div>
+            <div style="flex: 1; margin-left: 5%;">
+                <h4 style="margin-top: 0%;">Nom :</h4>
+                <span style="margin-left: 15px"></span><br>
+                <h4>Prénom :</h4>
+                <span style="margin-left: 15px"></span><br>
+                <h4>Age :</h4>
+                <span style="margin-left: 15px"></span><br>
+                <h4>Genre :</h4>
+                <span style="margin-left: 15px"></span><br>
+                <h4>Clan :</h4>
+                <span style="margin-left: 15px"></span><br>
+                <h4>Pouvoir :</h4>
+                <span style="margin-left: 15px"></span><br>
+            </div>
+            <div style="flex: 7;">
+            </div>
+        </div>
+    </div>
+    <script src="./public/js/main.js"></script>
+</body>
+</html>
